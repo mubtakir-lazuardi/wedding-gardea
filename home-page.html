@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      // https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite
+      if (
+        localStorage.getItem("color-theme") === "dark" ||
+        (!("color-theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <script src="js/script.js" defer></script>
+    <title>Fylo Website</title>
+  </head>
+  <body class="dark:bg-darkBlue dark:text-white font-opensans">
+    
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="bg-curvy-light-mode dark:bg-curvy-dark-mode"
+    >
+      <!-- Hero Container -->
+      <div class="container mx-auto px-6 text-center md:pt-20 pb-160 bg-heroes">
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-white">
+      <img
+                src="images/wedding/Desain_tanpa_judul_19_-removebg-preview1.png"
+                alt=""
+              />
+      <!-- Testimonials Container -->
+      <div class="container mx-auto px-6 pt-12 md:pb-96">
+        <!-- Boxes Container -->
+        <div
+          class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12"
+        >
+          <!-- Quotes Image -->
+          <img
+            src="images/bg-quotes.png"
+            alt=""
+            class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20"
+          />
+
+          <!-- Box 1 -->
+          <div
+            class="flex flex-col p-10 space-y-6 rounded-lg bg-gold md:w-1/3"
+          >
+            <p class="text-sm leading-5 md:text-lg">
+              Dan nikahkanlah orang-orang yang masih membujang di antara kamu, dan juga orang-orang yang layak (menikah) dari hamba-hamba sahayamu yang laki-laki dan perempuan. Jika mereka miskin, Allah akan memberi kemampuan kepada mereka dengan karunia-Nya.
+            </p>
+            <!-- Customer Info -->
+            <div class="flex space-x-4">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+                src="images/wedding/Desain_tanpa_judul_19_-removebg-preview2.png"
+                alt=""
+              />
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="pt-12 bg-yellow">
+      <!-- Features Container -->
+      <div class="container mx-auto px-6 pb-10">
+        <!-- First Row -->
+        <div
+          class="flex flex-col space-y-24 text-center md:flex-row md:space-y-0 pt-12"
+        >
+          <!-- Item 1 -->
+          <div class="flex flex-col items-center space-y-2 md:w-1/2">
+            <div class="flex items-center justify-center h-24 mb-10">
+              <img src="images/wedding/Ellipse7.png" alt="">
+            </div>
+            <h3 class="text-xl font-bold">Sely Sagita</h3>
+            <p class="max-w-md text-black">
+              <b>Putri Pertama dari <br>Bapak Asep Firman & Ibu Ice</b>
+            </p>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col items-center space-y-2 md:w-1/2">
+            <div class="flex items-center justify-center h-24 mb-10">
+              <img src="images/wedding/Ellipse8.png" alt="" />
+            </div>
+            <h3 class="text-xl font-bold">Ahmad Mustofa</h3>
+            <p class="max-w-md text-black">
+              <b>Putra Pertama dari <br>Bapak Hayatudin & Ibu Cucun</br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="pt-12 bg-white bg-moment">
+      <!-- Features Container -->
+      <div class="container mx-auto px-6 pb-10">
+        <h1 class="max-w-2xl mx-auto text-center mb-10 text-3xl text-black font-bold leading-normal mt-14 md:text-4xl">
+          MOMEN YANG BERHARGA
+        </h1>
+        <p class="text-sm text-center leading-5 md:text-lg text-gray-500">
+          "Menciptakan kenangan adalah hadiah yang tak ternilai harganya. Kenangan akan bertahan seumur hidup, benda-benda hanya dalam waktu singkat."
+        </p>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="bg-curvy-light-mode dark:bg-curvy-dark-mode"
+    >
+      <!-- Hero Container -->
+      <div class="container mx-auto px-6 text-center md:pt-20 pb-100 bg-gallery">
+      </div>
+    </section>
+
+    <!-- Productive Section -->
+    <section id="productive" class="bg-white">
+      <!-- Productive Container -->
+      <!-- Hero Container -->
+      <div class="container mx-auto px-6 text-center md:pt-20 pt-12 bg-event">
+        <h1 class="max-w-2xl mx-auto text-center mb-10 text-3xl text-black font-bold leading-normal mt-14 md:text-4xl">
+          ACARA
+        </h1>
+
+        <h3 class="text-xl text-black font-bold">Akad Nikah</h3>
+        <div class="mx-auto">
+          <div class="mx-auto bg-yellow pt-6 pb-32">
+          </div>
+          <img src="images/wedding/footer-opening.png" alt="" class="mx-auto">
+        </div>
+
+        <h3 class="text-xl text-black font-bold">Resepsi</h3>
+        <div class="mx-auto">
+          <div class="mx-auto bg-yellow pt-6 pb-32">
+          </div>
+          <img src="images/wedding/footer-opening.png" alt="" class="mx-auto">
+        </div>
+      </div>
+    </section>
+
+    <section id="maps bg-white">
+      <div class="container mx-auto px-6 pb-10">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7254667453044!2d107.7949163152139!3d-6.923384994997643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c5c156832e89%3A0xa157ebb35549c683!2sRumah%20Farhan%20Tampan!5e0!3m2!1sid!2sid!4v1668957475168!5m2!1sid!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mx-auto w-full"></iframe>
+        <img
+              src="images/wedding/footer-opening.png"
+              alt=""
+              class="mb-10 mx-auto"
+            />
+      </div>
+    </section>
+    <!-- Productive Section -->
+    <section id="productive" class="bg-white">
+      <!-- Productive Container -->
+      <div
+        class="container flex flex-col items-center mx-auto px-6pb-32 md:flex-row md:space-x-16"
+      >
+        <!-- Image -->
+        <!-- <div>
+          <img
+            src="images/wedding/footer-opening.png"
+            alt=""
+            class="mb-10"
+          />
+        </div> -->
+        <!-- Content -->
+        <div
+          class="flex flex-col space-y-24 text-center md:flex-row md:space-y-0 pt-12 text-black"
+        >
+          <!-- Item 1 -->
+          <div class="flex flex-col items-center space-y-2 md:w-1/2 max-w-v-sm">
+            <h3 class="text-xl font-bold">Gedung Joglo Belawan</h3>
+            <p class="max-w-md text-black">
+              Jl Veteran Gg Anggrek 1 A no 22 rt 30 Nagri Kaler Purwakarta
+              <button
+            class="w-full p-3 px-6 rounded-full bg-gold md:w-56 hover:scale-95"
+          >
+            Lihat Lokasi
+          </button>
+            </p>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col items-center space-y-2 md:w-1/2 max-w-v-sm">
+            <h1 class="max-w-2xl mx-auto text-center mb-10 text-3xl text-black font-bold leading-normal mt-14 md:text-4xl">
+              LIVE STREAMING
+            </h1>
+            <p class="max-w-md text-black">
+              Temui kami secara virtual untuk menyaksikan acara pernikahan kami
+              <button
+            class="w-full p-3 px-6 rounded-full bg-gold md:w-56 hover:scale-95"
+          >
+            Live Streaming
+          </button>
+            </p>
+          </div>
+        </div>
+        <img
+            src="images/wedding/Desain_tanpa_judul_23_-removebg-preview2.png"
+            alt=""
+            class="mb-10 mx-auto"
+          />
+      </div>
+    </section>
+
+
+    <!-- Early Access Section -->
+    <section id="early-access" class="relative px-6 md:px-0">
+      <div
+        class="relative -top-5 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-yellow md:px-16"
+      >
+        <h5 class="text-2xl font-bold">Kirim Ucapan</h5>
+        <!-- Input & Button Container -->
+        <div
+          class="flex flex-col items-start space-y-6"
+        >
+          <div class="w-full md:flex-1">
+            <input
+              type="text"
+              class="w-full px-10 py-3 rounded-full focus:outline-none"
+              placeholder="Nama Lengkap"
+            />
+          </div>
+
+          <div class="w-full md:flex-1">
+            <textarea class="w-full px-10 py-3 rounded-lg" cols="30" rows="6" placeholder="Alamat"></textarea>
+          </div>
+
+          <div class="w-full md:flex-1">
+            <input type="file" name="" id="">
+          </div>
+
+          <div class="w-full md:flex-1">
+            <textarea class="w-full px-10 py-3 rounded-lg" cols="30" rows="6" placeholder="Alamat"></textarea>
+          </div>
+
+          <button
+            class="w-full p-3 px-6 rounded-full bg-gold md:w-56 hover:scale-95"
+          >
+            Menuju Streaming
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white">
+      <div class="container mx-auto pt-12 px-5 pb-10">
+        <!-- Flex Container For All Items -->
+        <div
+          class="flex flex-col justify-between space-y-24"
+        >
+
+          <!-- Social -->
+          <div class="flex justify-center pb-10 space-x-3">
+            <div>
+              <a href="#">
+                <img
+                  src="images/facebook.svg"
+                  alt=""
+                  class="p-2 bg-darkBlue rounded-full ficon"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="images/twitter.svg"
+                  alt=""
+                  class="p-2 bg-darkBlue rounded-full ficon"
+                />
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img
+                  src="images/instagram.svg"
+                  alt=""
+                  class="p-2 bg-darkBlue rounded-full ficon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
