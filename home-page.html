@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <script>
       // https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite
       if (
@@ -24,7 +25,7 @@
       }
     </script>
     <script src="js/script.js" defer></script>
-    <title>Fylo Website</title>
+    <title>Wedding Invitation - Gardea & Manda</title>
   </head>
   <body class="dark:bg-darkBlue dark:text-white font-opensans">
     
@@ -35,8 +36,7 @@
       class="bg-curvy-light-mode dark:bg-curvy-dark-mode"
     >
       <!-- Hero Container -->
-      <div class="container mx-auto px-6 text-center md:pt-20 pb-160 bg-heroes">
-      </div>
+      <img src="images/wedding/header.png" alt="">
     </section>
     <!-- Testimonials Section -->
     <section id="testimonials" class="bg-white">
@@ -78,7 +78,7 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="pt-12 bg-yellow">
+    <section id="pengantin" class="pt-12 bg-yellow">
       <!-- Features Container -->
       <div class="container mx-auto px-6 pb-10">
         <!-- First Row -->
@@ -133,7 +133,7 @@
     </section>
 
     <!-- Productive Section -->
-    <section id="productive" class="bg-white">
+    <section id="acara" class="bg-white">
       <!-- Productive Container -->
       <!-- Hero Container -->
       <div class="container mx-auto px-6 text-center md:pt-20 pt-12 bg-event">
@@ -157,18 +157,18 @@
       </div>
     </section>
 
-    <section id="maps bg-white">
-      <div class="container mx-auto px-6 pb-10">
+    <section id="maps">
+      <div class="container mx-auto px-6 pb-10 pt-12">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7254667453044!2d107.7949163152139!3d-6.923384994997643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c5c156832e89%3A0xa157ebb35549c683!2sRumah%20Farhan%20Tampan!5e0!3m2!1sid!2sid!4v1668957475168!5m2!1sid!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mx-auto w-full"></iframe>
-        <img
-              src="images/wedding/footer-opening.png"
-              alt=""
-              class="mb-10 mx-auto"
-            />
       </div>
     </section>
     <!-- Productive Section -->
     <section id="productive" class="bg-white">
+      <img
+              src="images/wedding/footer-opening.png"
+              alt=""
+              class="mb-10 mx-auto"
+            />
       <!-- Productive Container -->
       <div
         class="container flex flex-col items-center mx-auto px-6pb-32 md:flex-row md:space-x-16"
@@ -212,17 +212,17 @@
             </p>
           </div>
         </div>
-        <img
-            src="images/wedding/Desain_tanpa_judul_23_-removebg-preview2.png"
-            alt=""
-            class="mb-10 mx-auto"
-          />
       </div>
+      <img
+          src="images/wedding/Desain_tanpa_judul_23_-removebg-preview2.png"
+          alt=""
+          class="mb-10 mx-auto"
+        />
     </section>
 
 
     <!-- Early Access Section -->
-    <section id="early-access" class="relative px-6 md:px-0">
+    <section id="ucapan" class="relative px-6 md:px-0">
       <div
         class="relative -top-5 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-yellow md:px-16"
       >
@@ -259,7 +259,32 @@
         </div>
       </div>
     </section>
-
+    <footer class="w-full h-16 
+            fixed left-0 bottom-0
+            flex justify-center items-center
+            text-white rounded-full bg-gold mb-6
+            ">
+            <div class="flex flex-row">
+              <div class="flex-justify-center p-3">
+                <a href="#pengantin"><img src="images/wedding/heart1.png" alt=""></a>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="flex-justify-center p-3">
+                <a href="#acara"><img src="images/wedding/calendar1.png" alt=""></a>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="flex-justify-center p-3">
+                <a href="#maps"><img src="images/wedding/location.png" alt=""></a>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="flex-justify-center p-3">
+                <a href="#ucapan"><img src="images/wedding/edit1.png" alt=""></a>
+              </div>
+            </div>
+        </footer>
     <!-- Footer -->
     <footer class="text-white">
       <div class="container mx-auto pt-12 px-5 pb-10">

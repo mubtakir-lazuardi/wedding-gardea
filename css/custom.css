@@ -1,0 +1,52 @@
+.bg-heroes{
+    background-image: url('../images/wedding/header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    }
+    
+    .bg-opening{
+    background-image: url('../images/wedding/opening.png');
+    background-repeat: repeat;
+    background-size: contain;
+    }
+    
+    .bg-yellow{
+    background-color: #61481C;
+    }
+  
+    .bg-gold{
+      background-color: #BF9742;
+    }  
+    
+    a{
+    height: auto;
+    }
+  
+    .text-black{
+      color: black;
+    }
+  
+    .bg-moment{
+      background-image: url('../images/wedding/moment.png');
+      background-repeat: no-repeat;
+      background-size: screen;
+      width: 100%;
+      z-index: 0;
+    }
+  
+    .bg-gallery{
+      background-image: url('../images/wedding/Rectangle25.png');
+      background-repeat: no-repeat;
+      background-size: screen;
+      width: 100%;
+      z-index: 0;
+    }
+  
+    .bg-event{
+      background-image: url('../images/wedding/event.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      z-index: 0;
+    }
