@@ -579,6 +579,14 @@ video {
   bottom: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.float-right {
+  float: right;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -600,6 +608,18 @@ video {
   margin-top: 7rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -610,6 +630,14 @@ video {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -648,12 +676,24 @@ video {
   flex-direction: column;
 }
 
+.content-end {
+  align-content: flex-end;
+}
+
 .items-start {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -706,32 +746,33 @@ video {
   border-radius: 9999px;
 }
 
-.border-t-2 {
-  border-top-width: 2px;
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-indigo-600 {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-}
-
-.bg-darkBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(217 28% 15% / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-curvy-light-mode {
   background-image: url('../images/bg-curvy-light-mode.svg');
+}
+
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-right-bottom {
+  -o-object-position: right bottom;
+     object-position: right bottom;
+}
+
+.object-right {
+  -o-object-position: right;
+     object-position: right;
 }
 
 .p-10 {
@@ -740,10 +781,6 @@ video {
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-6 {
@@ -896,6 +933,14 @@ video {
     max-width: 36rem;
   }
 
+  .md\:max-w-xs {
+    max-width: 20rem;
+  }
+
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+
   .md\:flex-1 {
     flex: 1 1 0%;
   }
@@ -932,12 +977,17 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:pt-20 {
-    padding-top: 5rem;
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:pb-96 {
     padding-bottom: 24rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-lg {
@@ -950,57 +1000,3 @@ video {
     line-height: 2.5rem;
   }
 }
-
-
-.bg-heroes{
-  background-image: url('../images/wedding/header.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  
-  }
-  
-  .bg-opening{
-  background-image: url('../images/wedding/opening.png');
-  background-repeat: repeat;
-  background-size: contain;
-  }
-  
-  .bg-yellow{
-  background-color: #61481C;
-  }
-
-  .bg-gold{
-    background-color: #BF9742;
-  }  
-  
-  a{
-  height: auto;
-  }
-
-  .text-black{
-    color: black;
-  }
-
-  .bg-moment{
-    background-image: url('../images/wedding/moment.png');
-    background-repeat: no-repeat;
-    background-size: screen;
-    width: 100%;
-    z-index: 0;
-  }
-
-  .bg-gallery{
-    background-image: url('../images/wedding/Rectangle25.png');
-    background-repeat: no-repeat;
-    background-size: screen;
-    width: 100%;
-    z-index: 0;
-  }
-
-  .bg-event{
-    background-image: url('../images/wedding/event.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    z-index: 0;
-  }

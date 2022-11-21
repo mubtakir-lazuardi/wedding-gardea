@@ -1,14 +1,14 @@
 .bg-heroes{
-    background-image: url('../images/wedding/header.png');
+    background-image: url('../images/wedding/kerri-shaver-xepikEyPgmI-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100%;
     }
     
     .bg-opening{
     background-image: url('../images/wedding/opening.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     }
     
     .bg-yellow{
@@ -31,6 +31,7 @@
       background-image: url('../images/wedding/moment.png');
       background-repeat: no-repeat;
       background-size: screen;
+      background-position: center;
       width: 100%;
       z-index: 0;
     }
@@ -47,6 +48,19 @@
       background-image: url('../images/wedding/event.png');
       background-repeat: no-repeat;
       background-size: contain;
+      background-position: center;
       width: 100%;
       z-index: 0;
+    }
+
+    .bg-event-fit{
+        background-image: url('../images/wedding/event.png');
+        background-repeat: no-repeat;
+        background-size: fit;
+        width: 100%;
+        z-index: 0;
+      }
+
+    .bg-black{
+        background-color: #010101;
     }
